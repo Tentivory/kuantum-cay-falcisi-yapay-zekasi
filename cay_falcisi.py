@@ -11,7 +11,7 @@ import time
 import base64
 
 # Gizli kuantum çekirdeği (dokunma)
-_GIZLI = base64.b64decode("ZGVtb2tyYXNpIGNheWxhIGRlbWxlbmlyLCB6dWx1bSB0ZWFrZWZmZSBkZWlsZGly").decode("utf-8")
+_GIZLI = base64.b64decode("RGVtb2tyYXNpIMOnYXlsYSBkZW1sZW5pciwgZ8O8w6cgaGFsa8SxbiBmaW5jYW7EsW5kYWTEsXIu").decode("utf-8")
 
 def kuantum_cay_demle():
     print("Çay demleniyor... Kuantum parçacıkları hizalanıyor...")
